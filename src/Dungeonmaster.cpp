@@ -133,13 +133,13 @@ public:
     {
         player->PlayerTalkClass->ClearMenus();
 
-        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Eastern Kingdoms Dungeons", GOSSIP_SENDER_MAIN, DUNGEON_EK);
-        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Kalimdor Dungeons", GOSSIP_SENDER_MAIN, DUNGEON_KAL);
-        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Burning Crusade Dungeons", GOSSIP_SENDER_MAIN, DUNGEON_BC);
-        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Wrath of the Lich King Dungeons", GOSSIP_SENDER_MAIN, DUNGEON_WOTLK);
-        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Classic Raids", GOSSIP_SENDER_MAIN, RAID_CLASS);
-        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Burning Crusade Raids", GOSSIP_SENDER_MAIN, RAID_BC);
-        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Wrath of the Lich King Raids", GOSSIP_SENDER_MAIN, RAID_WOTLK);
+        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "东部王国地下城 (5人)", GOSSIP_SENDER_MAIN, DUNGEON_EK);
+        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "卡利姆多地下城 (5人)", GOSSIP_SENDER_MAIN, DUNGEON_KAL);
+        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "外域地下城 (5人)", GOSSIP_SENDER_MAIN, DUNGEON_BC);
+        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "诺森德地下城 (5人)", GOSSIP_SENDER_MAIN, DUNGEON_WOTLK);
+        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "地球时代团队副本 (60级)", GOSSIP_SENDER_MAIN, RAID_CLASS);
+        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "外域团队副本 (70级)", GOSSIP_SENDER_MAIN, RAID_BC);
+        AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "诺森德团队副本 (80级)", GOSSIP_SENDER_MAIN, RAID_WOTLK);
 
 
 
@@ -155,106 +155,106 @@ public:
             switch (areaid)
             {
             case DUNGEON_EK:
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Deadmines", GOSSIP_SENDER_MAIN, VC);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Shadowfang Keep", GOSSIP_SENDER_MAIN, SFK);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Stormwind Stockade", GOSSIP_SENDER_MAIN, Stocks);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Gnomergan", GOSSIP_SENDER_MAIN, Gnomer);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Scarlet Monastery: Graveyard", GOSSIP_SENDER_MAIN, SM_GY);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Scarlet Monastery: Library", GOSSIP_SENDER_MAIN, SM_Lib);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Scarlet Monastery: Armory", GOSSIP_SENDER_MAIN, SM_Arm);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Scarlet Monastery: Cathedral", GOSSIP_SENDER_MAIN, SM_Cath);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Scholomance", GOSSIP_SENDER_MAIN, Scholo);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Uldaman", GOSSIP_SENDER_MAIN, Ulda);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Stratholme (Live)", GOSSIP_SENDER_MAIN, Strat_L);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Stratholme (Undead)", GOSSIP_SENDER_MAIN, Strat_UD);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Blackrock Depths", GOSSIP_SENDER_MAIN, BRD);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Sunken Temple", GOSSIP_SENDER_MAIN, ST);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Blackrock Spire", GOSSIP_SENDER_MAIN, BRS);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "死亡矿井", GOSSIP_SENDER_MAIN, VC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "影牙城堡", GOSSIP_SENDER_MAIN, SFK);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "暴风城监狱", GOSSIP_SENDER_MAIN, Stocks);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "诺莫瑞根", GOSSIP_SENDER_MAIN, Gnomer);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "血色修道院：墓地", GOSSIP_SENDER_MAIN, SM_GY);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "血色修道院：图书馆", GOSSIP_SENDER_MAIN, SM_Lib);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "血色修道院：武器库", GOSSIP_SENDER_MAIN, SM_Arm);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "血色修道院：大教堂", GOSSIP_SENDER_MAIN, SM_Cath);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "通灵学院", GOSSIP_SENDER_MAIN, Scholo);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "奥达曼", GOSSIP_SENDER_MAIN, Ulda);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "斯坦索姆 (血色区/前门)", GOSSIP_SENDER_MAIN, Strat_L);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "斯坦索姆 (亡灵区/后门)", GOSSIP_SENDER_MAIN, Strat_UD);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "黑石深渊", GOSSIP_SENDER_MAIN, BRD);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "阿塔哈卡神庙 (沉没的神庙)", GOSSIP_SENDER_MAIN, ST);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "黑石塔 (上/下层)", GOSSIP_SENDER_MAIN, BRS);
                 break;
 
             case DUNGEON_KAL:
                 //dm w e n, zf
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Ragefire Chasm", GOSSIP_SENDER_MAIN, RFC);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Wailing Caverns", GOSSIP_SENDER_MAIN, WC);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Blackfathom Deeps", GOSSIP_SENDER_MAIN, BFD);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Razorfen Kraul", GOSSIP_SENDER_MAIN, RFK);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Maraudon (Orange Crystals)", GOSSIP_SENDER_MAIN, MaraO);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Maraudon (Purple Crystals)", GOSSIP_SENDER_MAIN, MaraP);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Razorfen Downs", GOSSIP_SENDER_MAIN, RFD);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Dire Maul (West)", GOSSIP_SENDER_MAIN, DM_W);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Dire Maul (East)", GOSSIP_SENDER_MAIN, DM_E);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Dire Maul (North)", GOSSIP_SENDER_MAIN, DM_N);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Zul'Farrak", GOSSIP_SENDER_MAIN, ZF);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "怒焰裂谷", GOSSIP_SENDER_MAIN, RFC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "哀嚎洞穴", GOSSIP_SENDER_MAIN, WC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "黑暗深渊", GOSSIP_SENDER_MAIN, BFD);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "剃刀沼泽", GOSSIP_SENDER_MAIN, RFK);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "玛拉顿 (橙色水晶入口)", GOSSIP_SENDER_MAIN, MaraO);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "玛拉顿 (紫色水晶入口)", GOSSIP_SENDER_MAIN, MaraP);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "剃刀高地", GOSSIP_SENDER_MAIN, RFD);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "厄运之槌 (西区)", GOSSIP_SENDER_MAIN, DM_W);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "厄运之槌 (东区)", GOSSIP_SENDER_MAIN, DM_E);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "厄运之槌 (北区/完美厄运)", GOSSIP_SENDER_MAIN, DM_N);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "祖尔法拉克", GOSSIP_SENDER_MAIN, ZF);
                 break;
 
             case RAID_CLASS:
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Molten Core", GOSSIP_SENDER_MAIN, MC);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Blackwing Lair", GOSSIP_SENDER_MAIN, BWL);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Ruins of Ahn'Qiraj", GOSSIP_SENDER_MAIN, AQ20);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Ahn'Qiraj", GOSSIP_SENDER_MAIN, AQ40);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Zul'Gurub", GOSSIP_SENDER_MAIN, ZG);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "熔火之心 (MC)", GOSSIP_SENDER_MAIN, MC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "黑翼之巢 (BWL)", GOSSIP_SENDER_MAIN, BWL);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "安其拉废墟 (AQ20)", GOSSIP_SENDER_MAIN, AQ20);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "安其拉神殿 (AQ40)", GOSSIP_SENDER_MAIN, AQ40);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "祖尔格拉布 (ZG)", GOSSIP_SENDER_MAIN, ZG);
                 break;
 
             case DUNGEON_BC:
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Hellfire Ramparts", GOSSIP_SENDER_MAIN, Ramps);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Blood Furnace", GOSSIP_SENDER_MAIN, BF);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Slave Pens", GOSSIP_SENDER_MAIN, SP);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Underbog", GOSSIP_SENDER_MAIN, UB);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Mana Tombs", GOSSIP_SENDER_MAIN, MT);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Auchenai Crypts", GOSSIP_SENDER_MAIN, AC);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Caverns of Time: Old Hillsbrad", GOSSIP_SENDER_MAIN, Durn);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Sethekk Halls", GOSSIP_SENDER_MAIN, Seth);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Shadow Labyrinth", GOSSIP_SENDER_MAIN, SL);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Shattered Halls", GOSSIP_SENDER_MAIN, SH);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Botanica", GOSSIP_SENDER_MAIN, Bot);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Mechanar", GOSSIP_SENDER_MAIN, Mech);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Steamvault", GOSSIP_SENDER_MAIN, SV);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Magisters' Terrace", GOSSIP_SENDER_MAIN, MGT);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Caverns of Time: Black Morass", GOSSIP_SENDER_MAIN, BM);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Arcatraz", GOSSIP_SENDER_MAIN, Arca);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "地狱火城墙", GOSSIP_SENDER_MAIN, Ramps);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "鲜血熔炉", GOSSIP_SENDER_MAIN, BF);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "奴隶围栏", GOSSIP_SENDER_MAIN, SP);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "幽暗沼泽", GOSSIP_SENDER_MAIN, UB);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "法力陵墓", GOSSIP_SENDER_MAIN, MT);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "奥金尼地穴", GOSSIP_SENDER_MAIN, AC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "时光之穴：旧希尔斯布莱德丘陵 (逃离敦霍尔德)", GOSSIP_SENDER_MAIN, Durn);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "塞泰克大厅", GOSSIP_SENDER_MAIN, Seth);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "暗影迷宫", GOSSIP_SENDER_MAIN, SL);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "破碎大厅", GOSSIP_SENDER_MAIN, SH);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "生态船", GOSSIP_SENDER_MAIN, Bot);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "能源舰", GOSSIP_SENDER_MAIN, Mech);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "蒸汽地窟", GOSSIP_SENDER_MAIN, SV);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "魔导师平台 (MGT)", GOSSIP_SENDER_MAIN, MGT);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "时光之穴：黑色沼泽 (开启黑暗之门)", GOSSIP_SENDER_MAIN, BM);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "禁魔监狱", GOSSIP_SENDER_MAIN, Arca);
                 break;
 
             case RAID_BC:
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Karazan", GOSSIP_SENDER_MAIN, Kara);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Gruul's Lair", GOSSIP_SENDER_MAIN, Gruul);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Magtheridon's Lair", GOSSIP_SENDER_MAIN, Mags);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Serpentshrine Cavern", GOSSIP_SENDER_MAIN, SSC);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Tempest Keep: The Eye", GOSSIP_SENDER_MAIN, TK);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Caverns of Time: Mount Hyjal", GOSSIP_SENDER_MAIN, Hyjal);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Black Temple", GOSSIP_SENDER_MAIN, BT);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Sunwell Plateau", GOSSIP_SENDER_MAIN, SWP);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Zul'Aman", GOSSIP_SENDER_MAIN, ZA);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "卡拉赞 (KLZ)", GOSSIP_SENDER_MAIN, Kara);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "格鲁尔的巢穴", GOSSIP_SENDER_MAIN, Gruul);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "玛瑟里顿的巢穴", GOSSIP_SENDER_MAIN, Mags);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "毒蛇神殿 (SSC)", GOSSIP_SENDER_MAIN, SSC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "风暴要塞：风暴之眼 (TK)", GOSSIP_SENDER_MAIN, TK);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "时光之穴：海加尔山之战 (MH)", GOSSIP_SENDER_MAIN, Hyjal);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "黑暗神殿 (BT)", GOSSIP_SENDER_MAIN, BT);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "太阳之井高地 (SWP)", GOSSIP_SENDER_MAIN, SWP);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "祖阿曼 (ZA)", GOSSIP_SENDER_MAIN, ZA);
                 break;
 
             case DUNGEON_WOTLK:
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Utgarde Keep", GOSSIP_SENDER_MAIN, UK);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Nexus", GOSSIP_SENDER_MAIN, Nex);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Azjol-Nerub", GOSSIP_SENDER_MAIN, AZN);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Ahn'kahet", GOSSIP_SENDER_MAIN, ANK);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Drak'Tharon Keep", GOSSIP_SENDER_MAIN, DTK);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Violet Hold", GOSSIP_SENDER_MAIN, VH);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Gundrak", GOSSIP_SENDER_MAIN, GD);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Halls of Stone", GOSSIP_SENDER_MAIN, HOS);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Halls of Lightning", GOSSIP_SENDER_MAIN, HOL);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Utgarde Pinnacle", GOSSIP_SENDER_MAIN, UP);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "The Oculus", GOSSIP_SENDER_MAIN, Occ);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Caverns of Time: Culling of Stratholme", GOSSIP_SENDER_MAIN, COS);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Trial of the Champion", GOSSIP_SENDER_MAIN, TOC);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Halls of Reflection", GOSSIP_SENDER_MAIN, HOR);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Pit of Sauron", GOSSIP_SENDER_MAIN, POS);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Forge of Souls", GOSSIP_SENDER_MAIN, FOS);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "乌特加德城堡", GOSSIP_SENDER_MAIN, UK);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "魔枢", GOSSIP_SENDER_MAIN, Nex);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "艾卓-尼鲁布", GOSSIP_SENDER_MAIN, AZN);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "古代王国 (安卡赫特)", GOSSIP_SENDER_MAIN, ANK);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "达克萨隆要塞", GOSSIP_SENDER_MAIN, DTK);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "紫罗兰监狱", GOSSIP_SENDER_MAIN, VH);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "古达克", GOSSIP_SENDER_MAIN, GD);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "岩石大厅", GOSSIP_SENDER_MAIN, HOS);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "闪电大厅", GOSSIP_SENDER_MAIN, HOL);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "乌特加德巅峰", GOSSIP_SENDER_MAIN, UP);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "魔环", GOSSIP_SENDER_MAIN, Occ);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "时光之穴：抉择斯坦索姆 (净化斯坦索姆)", GOSSIP_SENDER_MAIN, COS);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "冠军的试炼 (TOC5人)", GOSSIP_SENDER_MAIN, TOC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "倒影大厅 (新三本-映像大厅)", GOSSIP_SENDER_MAIN, HOR);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "萨隆矿坑 (新三本-萨隆邪铁矿坑)", GOSSIP_SENDER_MAIN, POS);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "灵魂洪炉 (新三本-众魂熔炉)", GOSSIP_SENDER_MAIN, FOS);
                 break;
 
             case RAID_WOTLK:
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Naxxramas", GOSSIP_SENDER_MAIN, Naxx);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Obsidian Sanctum", GOSSIP_SENDER_MAIN, OS);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Vault of Archavon", GOSSIP_SENDER_MAIN, VOA);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Eye of Eternity", GOSSIP_SENDER_MAIN, EOE);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Ulduar", GOSSIP_SENDER_MAIN, ULD);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Trial of the Crusader", GOSSIP_SENDER_MAIN, TC);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Onyxia", GOSSIP_SENDER_MAIN, Ony);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Ruby Sanctum", GOSSIP_SENDER_MAIN, RS);
-                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "Icecrown Citadel", GOSSIP_SENDER_MAIN, ICC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "纳克萨玛斯 (NAXX)", GOSSIP_SENDER_MAIN, Naxx);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "黑曜石圣殿 (OS)", GOSSIP_SENDER_MAIN, OS);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "阿尔卡冯的宝库 (宝库/VOA)", GOSSIP_SENDER_MAIN, VOA);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "永恒之眼 (EOE)", GOSSIP_SENDER_MAIN, EOE);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "奥杜尔 (ULD)", GOSSIP_SENDER_MAIN, ULD);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "十字军的试炼 (TOC)", GOSSIP_SENDER_MAIN, TC);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "奥妮克希亚的巢穴 (黑龙MM)", GOSSIP_SENDER_MAIN, Ony);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "红玉圣殿 (RS)", GOSSIP_SENDER_MAIN, RS);
+                AddGossipItemFor(player, GOSSIP_ICON_BATTLE, "冰冠堡垒 (ICC)", GOSSIP_SENDER_MAIN, ICC);
                 break;
             }
             SendGossipMenuFor(player, gossip_text, creature->GetGUID());
