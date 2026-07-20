@@ -5,3 +5,11 @@ INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entr
 DELETE FROM `creature_template_model` WHERE (`CreatureID` = 197762);
 INSERT INTO `creature_template_model` (`CreatureID`, `Idx`, `CreatureDisplayID`, `DisplayScale`, `Probability`, `VerifiedBuild`) VALUES
 (197762, 0, 3437, 1, 1, 0);
+
+-- 名称汉化
+DELETE FROM `creature_template_locale` WHERE (`entry` = 197762 AND `locale` = 'zhCN');
+INSERT INTO `creature_template_locale` (`entry`,`locale`,`Name`,`Title`,`VerifiedBuild`) VALUES (197762, 'zhCN', '丹', '地下城向导', 0);
+
+-- 对话汉化
+DELETE FROM `npc_text_locale` WHERE (`ID` = 197762 AND `locale` = 'zhCN');
+INSERT INTO `npc_text_locale` (`ID`, `Locale`, `Text0_0`) VALUES (197760, 'zhCN', '你想去地下城吗？我已经探索了整个世界，可以把你送到你需要去的地方。如果你去了不该去的地方而导致死亡或被分尸，我可概不负责');
